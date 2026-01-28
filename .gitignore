@@ -1,4 +1,24 @@
+# Python env/build files
 venv/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Jupyter Notebook artifacts
+.ipynb_checkpoints
+
+# Data files *DO NOT COMMIT DATA FILES TO REPO*
+spotify_data/
+data/
+*.zip
+*.csv
+
+# Kaggle Credentials
+kaggle.json
+.kaggle/
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
